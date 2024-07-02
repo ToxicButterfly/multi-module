@@ -1,0 +1,18 @@
+20:18:41.979 [main] INFO  c.example.base.BaseApplicationTests - Starting BaseApplicationTests using Java 21.0.1 with PID 33368 (started by PC in D:\Spring\multi-module\base)
+20:18:41.981 [main] INFO  c.example.base.BaseApplicationTests - No active profile set, falling back to 1 default profile: "default"
+20:18:42.545 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:18:42.564 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+20:18:42.902 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+20:18:42.953 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+20:18:43.084 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:18:43.247 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@57c69937
+20:18:43.249 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:18:43.279 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+20:18:44.200 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+20:18:44.950 [main] INFO  c.example.base.BaseApplicationTests - Started BaseApplicationTests in 3.323 seconds (process running for 4.253)
+20:18:45.191 [scheduling-1] INFO  c.e.b.s.impl.AuctionServiceImpl - Auction process start.
+20:18:45.195 [scheduling-1] INFO  c.e.b.s.impl.AuctionServiceImpl - Auction processing completed for auction with id 2
+20:18:45.195 [scheduling-1] INFO  c.e.b.s.impl.AuctionServiceImpl - Auction process start.
+20:18:45.196 [scheduling-1] INFO  c.e.b.s.impl.AuctionServiceImpl - Auction processing completed for auction with id 3
+20:18:45.526 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:18:45.535 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
